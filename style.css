@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cent {
+  width: 90%;
+  margin: auto;
+}
+/*haher style*/
+header {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+}
+header .cent {
+  display: flex;
+}
+/*logo style*/
+header div .logo img {
+  width: 155px;
+  margin-top: 5px;
+}
+/*list 1 style*/
+header div .nav_1 {
+  width: 80%;
+  margin-left: 20px;
+}
+header div .nav_1 ul {
+  display: flex;
+  list-style-type: none;
+}
+header div .nav_1 ul li {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+header div .nav_1 ul li a {
+  text-decoration: none;
+  color: black;
+}
+header div .nav_1 ul li a:hover {
+  border-bottom: 4px solid black;
+}
+
+/*list 2 style*/
+
+header div .nav_2 {
+  width: 47%;
+}
+header div .nav_2 ul {
+  display: flex;
+  float: right;
+  list-style-type: none;
+}
+header div .nav_2 ul li {
+  margin-right: 20px;
+}
+header div .nav_2 ul #humbList{
+  display: none;
+}
+header div .nav_2 ul li select {
+  margin-top: 10px;
+}
+header div .nav_2 ul li a {
+  list-style-type: none;
+}
+header div .nav_2 ul li a img {
+  width: 55px;
+}
+/*main style*/
+main div .bigImage {
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  background-image: url("images/slide1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 33px;
+}
+main div .bigImage h2 {
+  margin-left: 100px;
+  margin-top: 10%;
+}
+main div .bigImage p {
+  margin-left: 100px;
+  font-size: 25px;
+  margin-right: 59%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main div .bigImage span {
+  margin-left: 100px;
+}
+main div .bigImage span a {
+  text-decoration: none;
+  list-style-type: none;
+}
+main div .bigImage #s1 {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: black;
+}
+main div .bigImage #s1:hover {
+  padding: 10px;
+}
+main div .bigImage #s1 a {
+  color: white;
+}
+main div .bigImage #s2 {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(145, 145, 145);
+  border: 3px solid black;
+}
+main div .bigImage #s2 a {
+  color: black;
+}
+main div .bigImage #s2:hover {
+  padding: 10px;
+}
+/*main article style*/
+
+main .list h2 {
+  margin-top: 20px;
+  font-size: 35px;
+}
+main .list section {
+  display: flex;
+}
+main .list section .art {
+  width: 23%;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 23px;
+}
+main .list section .art img {
+  width: 100%;
+}
+main .list section .art h2 {
+  margin-top: 20px;
+}
+main .list section .art h2 a {
+  text-decoration: none;
+  color: black;
+}
+main .list section .art p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+main .list section .art p a {
+  text-decoration: none;
+  color: black;
+}
+main .list section .art .Blu_link {
+  margin-top: 20px;
+  font-size: 20px;
+  transition-property: all;
+}
+main .list section .art .Blu_link a {
+  text-decoration: none;
+  color: #0067b8;
+}
+main .list section .art .Blu_link a .txt {
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+  width: 58%;
+}
+main .list section .art .Blu_link a .txt:hover {
+  border-bottom: 3px solid #0067b8;
+  margin-right: 5px;
+}
+/*----------------main imag------------*/
+main div .mainimg {
+  margin-top: 50px;
+  width: 100%;
+  height: 600px;
+  background-image: url("images/mainImg.jpeg");
+  background-size: cover;
+  overflow: hidden;
+}
+main div .mainimg h2 {
+  margin-top: 200px;
+  font-size: 40px;
+  margin-left: 100px;
+}
+main div .mainimg h2 a {
+  text-decoration: none;
+  color: black;
+}
+main div .mainimg p {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+main div .mainimg p a {
+  text-decoration: none;
+  color: black;
+}
+main div .mainimg .click {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+main div .mainimg .click a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #0067b8;
+}
+main div .mainimg .click a .text {
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+  width: 58%;
+}
+main div .mainimg .click a .text:hover {
+  border-bottom: 5px solid #0067b8;
+  margin-right: 15px;
+}
+/*footer style*/
+footer {
+  margin-top: 30px;
+  width: 100%;
+  height: 450px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+footer div .ALL_div {
+  display: flex;
+  margin-top: 50px;
+}
+footer div .ALL_div .listlink {
+  width: 20%;
+}
+footer div .ALL_div .listlink h3 {
+  font-size: 25px;
+}
+footer div .ALL_div .listlink ul {
+  margin-top: 30px;
+}
+footer div .ALL_div .listlink ul li {
+  margin-top: 30px;
+  list-style-type: none;
+  font-size: 20px;
+}
+footer div .ALL_div .listlink ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer div .ALL_div .listlink ul li a:hover {
+  border-bottom: 3px solid black;
+}
+footer div .downLink{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div .downLink .lang a{
+  text-decoration: none;
+  color: gray;
+}
+
+footer div .downLink .linkDown a{
+  text-decoration: none;
+  color: gray;
+  margin-left: 10px;
+}
+/*-------------------------------list media */
+#mediaLink{
+  display: none;
+  width: 100%;
+  height: 300px;
+  background-color:rgb(212, 208, 208);
+  position: relative;
+left: -100%;
+}
+#mediaLink .nav_media{
+  width: 100%;
+  height: 100%;
+}
+#mediaLink .nav_media ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-left: 10px;
+}
+#mediaLink .nav_media ul li{
+  border-bottom: 1px solid rgb(73, 73, 73);
+  margin-right: 10px;
+}
+#mediaLink .nav_media ul li a{
+color: black;
+text-decoration: none;
+}
+/*bar*/
+header #bar{
+  display: none;
+}
+/*madia screen*/
+@media only screen and (max-width: 900px) {
+  body{
+    display: none;
+  }
+}
+
+/*madia screen*/
+@media only screen and (max-width: 800px) {
+  /*header media screen*/
+  body{
+    display: initial;
+  }
+  header .cent {
+    width: 99%;
+  }
+  /*logo style*/
+  header div .logo {
+    display: block;
+    position: relative;
+    left: 37%;
+  }
+
+  /*list 1 style*/
+  header div .nav_1 {
+    display: none;
+  }
+
+  /*list 2 style*/
+
+  header div .nav_2 {
+    display: none;
+  }
+  /*media style */
+
+  /*main style*/
+  main div .bigImage {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 21px;
+    text-align: center;
+  }
+  main div .bigImage h2 {
+    margin-left: auto;
+    margin-top: 251px;
+  }
+  main div .bigImage p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+  }
+
+  main div .bigImage #s1 {
+    margin-left: auto;
+  }
+
+  main div .bigImage #s2 {
+    margin-left: auto;
+    margin-left: 10px;
+    background-color: #e7e7e7;
+    border: none;
+  }
+  /*list article media style*/
+
+  /*main article style*/
+
+  main .list section {
+    display: initial;
+
+  }
+  main .list section .art {
+    width: 100%;
+    text-align: left;
+  }
+  /*----------------main imag------------*/
+  main div .mainimg {
+    background-image: url("images/mbImg.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  main div .mainimg h2 {
+    margin-top: 300px;
+    margin-left: auto;
+    font-size: 30px;
+  }
+  main div .mainimg p {
+    margin-left: auto;
+    font-size: 20px;
+  }
+  main div .mainimg .click {
+    margin-left: auto;
+  }
+
+  /*footer style*/
+  footer {
+    height: auto;
+  }
+  footer div .ALL_div {
+    display: initial;
+  }
+  footer div .ALL_div .listlink {
+    width: 100%;
+  }
+  footer div .ALL_div .listlink h3 {
+    margin-top: 50px;
+  }
+  footer div .ALL_div .listlink ul {
+    margin-top: 25px;
+  }
+  /*humblist*/
+  header div .nav_2 ul #humbList{
+    display: block;
+  }
+  /*bar*/
+header #bar{
+  display: block;
+  margin-top: -25px;
+margin-left: 10px;
+}
+}
